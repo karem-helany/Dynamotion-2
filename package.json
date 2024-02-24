@@ -1,5 +1,5 @@
 {
-  "homepage": "http://karem-helany.github.io/dynamotion",
+  "homepage": "https://karem-helany.github.io/Dynamotion-2",
   "name": "dynamotion",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,7 @@
   },
   "scripts": {
     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "node node_modules/react-scripts/bin/react-scripts start",
     "build": "node node_modules/react-scripts/bin/react-scripts build",
     "test": "node node_modules/react-scripts/bin/react-scripts test",
@@ -38,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.1"
   }
 }
